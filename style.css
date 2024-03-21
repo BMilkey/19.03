@@ -113,10 +113,6 @@ dialog {
   border-radius: 20px;
 }
 
-.changeButton {
-  position: absolute;
-}
-
 .divInput {
   margin-left: 2%;
   position: relative;
@@ -153,6 +149,11 @@ h4 {
   height: 100%;
   background-color: #2EC4B6;
   border-radius: 10px;
+  transition: 0.8s;
+}
+
+.backButton:hover {
+  background-color: #7AE1DC;
 }
 
 .changeButton {
@@ -160,6 +161,11 @@ h4 {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   width: 15%;
+  transition: 0.8s;
+}
+
+.changeButton:hover {
+  background-color: #7AE1DC;
 }
 
 .changeNameTask {
